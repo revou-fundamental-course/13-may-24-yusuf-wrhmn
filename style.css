@@ -1,7 +1,7 @@
 /* style 'Katik' */
 
 .section-content {
-    background-color: cornflowerblue;
+    background-color: rgb(35, 115, 180);
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -36,7 +36,7 @@ input {
     border: 1px solid;
     border-radius: 5px;
     color: white;
-    background-color: cornflowerblue;
+    background-color: rgb(35, 115, 180);
 }
 
 #reset {
