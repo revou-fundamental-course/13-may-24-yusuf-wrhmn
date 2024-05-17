@@ -1,1 +1,48 @@
-/* style 'LuasSegitiga' */
+/* style 'Katik' */
+
+.section-content {
+    background-color: cornflowerblue;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#jajar-genjang {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    color: blue;
+    background-color: white;
+    border: 0px
+}
+
+.img-formula {
+    text-align: center;
+}
+img {
+    height: 100 px;
+}
+
+input {
+    font-family: math;
+    padding: 4px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#count {
+    padding: 16px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+#reset {
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+}

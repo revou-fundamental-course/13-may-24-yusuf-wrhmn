@@ -1,1 +1,1 @@
-// script 'LuasSegitiga'
+// script 'Katik'

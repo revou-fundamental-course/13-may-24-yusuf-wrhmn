@@ -1,9 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator Assignment</title>
+        <link rel="stylesheet" href="style.css">
         
     </head>
     <body>
-        
+        <header style="text-align: center;">
+            <h1>Welcome to Katik</h1>
+            <section>
+                <p>
+                    Hai sobat, datang di Katik :]
+                </p>
+                <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar.</p>
+            </section>
+        </header>
+        <main>
+            <!-- Luas Segitiga -->
+            <div class="section-content">
+                <h4>Segitiga</h4>
+            </div>
+            <button type="button" id="jajar-genjang">
+                <u>Jajar Genjang</u>
+            </button>
+            <section>
+                <div class="section-content">
+                <h2 style="text-align: center;">Luas Segitiga</h2>
+            </div>
+            <div class="img-formula">
+                <img src="https://bermatematika.net/wp-content/uploads/2019/06/rumus-heron.png?w=400&h=227" alt="Segitiga">
+            </div>
+            <p>Rumus luas segitiga yaitu:</p>
+            <p style="text-align: center;"><b>L = 1/2 &times; a &times; t</b></p>
+            <p>Di mana :</p>
+            <p>L = Luas</p>
+            <p>a = Alas Segitiga</p>
+            <p>t = Tinggi Segitiga</p>
+            </section>
+            <hr>
+            <section>
+                <header>
+                    <h2 style="text-align: center;">Hitung Luas Segitiga</h2>
+                </header>
+                <form>
+                    <div>
+                        <label>Alas</label><input>
+                    </div>
+                    <div>
+                        <label>Tinggi</label><input>
+                    </div>
+                </form>
+                <p>L = 1/2 &times; a &times; t</p>
+                <p>L = 1/2 &times; 0 &times; 0</p>
+                <p>L = 0</p>
+                <div style="text-align: center;">
+                <button id="count">Hitung</button>
+                </div>
+                <div style="text-align: end;"><button id="reset">Reset</button></div>
+            </section>
+        </main>
+        <br>
+        <hr>
+        <br>
+        <footer>
+            <!-- Keliling Segitiga -->
+            <section>
+                <div class="section-content">
+                <h2 style="text-align: center;">Keliling Segitiga</h2>
+            </div>
+            <div class="img-formula">
+                <img src="https://bermatematika.net/wp-content/uploads/2019/06/rumus-heron.png?w=400&h=227" alt="Segitiga">
+            </div>
+            <p>Rumus keliling segitiga yaitu:</p>
+            <p style="text-align: center;"><b>K = a &times; b &times; c</b></p>
+            <p>Di mana :</p>
+            <p>K = Keliling</p>
+            <p>a = Alas Segitiga</p>
+            <p>b = Sisi B</p>
+            <p>c = Sisi C</p>
+            </section>
+            <hr>
+            <section>
+                <header>
+                    <h2 style="text-align: center;">Hitung Keliling Segitiga</h2>
+                </header>
+                <form>
+                    <div>
+                        <label>Alas</label><input>
+                    </div>
+                    <div>
+                        <label>Sisi B</label><input>
+                    </div>
+                    <div>
+                        <label>Sisi C</label><input>
+                    </div>
+                </form>
+                <p>K = a &times; b &times; c</p>
+                <p>K = 0 &times; 0 &times; 0</p>
+                <p>K = 0</p>
+                <div style="text-align: center;">
+                <button id="count">Hitung</button>
+                </div>
+                <div style="text-align: end;"><button id="reset">Reset</button></div>
+            </section>
+        </footer>
     </body>
 </html>
