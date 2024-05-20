@@ -22,7 +22,7 @@
             <div class="section-content">
                 <h4>Segitiga</h4>
             </div>
-            <button type="button" id="jajar-genjang">
+            <button type="button" id="jajar-genjang" onclick="JajarGenjang()">
                 <u>Jajar Genjang</u>
             </button>
         </nav>
@@ -52,22 +52,23 @@
                 <header>
                     <h2 style="text-align: center;">Hitung Luas Segitiga</h2>
                 </header>
-                <form>
+                <form id="form-area">
                     <div>
-                        <input type="number" id="base" placeholder="Alas" required="">
+                        <input type="number" class="area" id="base" placeholder="Alas" required="">
                     </div>
                     <br>
                     <div>
-                        <input type="number" id="height" placeholder="Tinggi" required="">
+                        <input type="number" class="area" id="height" placeholder="Tinggi" required="">
                     </div>
+                    <p id="formula-area"></p>
+                    <p id="counting-area"></p>
+                    <p id="area"></p>
                 </form>
-                <p id="formula-area"></p>
-                <p id="counting-area"></p>
-                <p id="area"></p>
+                
                 <div style="text-align: center;">
                 <button class="count" onclick="LuasSegitiga()">Hitung</button>
                 </div>
-                <div style="text-align: end;"><button class="reset">Reset</button></div>
+                <div style="text-align: end;"><button class="reset" onclick="ResetLuas()">Reset</button></div>
             </section>
             <br>
             <hr>
@@ -99,7 +100,7 @@
                 <header>
                     <h2 style="text-align: center;">Hitung Keliling Segitiga</h2>
                 </header>
-                <form>
+                <form id="form-circum">
                     <div>
                         <input type="number" id="side-a" placeholder="Sisi A" required="">
                     </div>
@@ -111,14 +112,15 @@
                     <div>
                         <input type="number" id="side-c" placeholder="Sisi C" required="">
                     </div>
+                    <p id="formula-circum"></p>
+                    <p id="counting-cricum"></p>
+                    <p id="circum"></p>
                 </form>
-                <p id="formula-circum"></p>
-                <p id="counting-cricum"></p>
-                <p id="circum"></p>
+                
                 <div style="text-align: center;">
                 <button class="count" onclick="KelilingSegitiga()">Hitung</button>
                 </div>
-                <div style="text-align: end;"><button class="reset">Reset</button></div>
+                <div style="text-align: end;"><button class="reset" onclick="ResetKeliling()">Reset</button></div>
             </section>
         </main>
         <footer></footer>
