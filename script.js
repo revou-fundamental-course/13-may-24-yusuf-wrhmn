@@ -5,7 +5,9 @@ function LuasSegitiga() {
 
     let hasilluas = 0.5 * parseInt(alas) * parseInt(tinggi)
 
-    document.write('Hasilnya adalah ' + hasilluas)
+    document.getElementById("formula-area").innerHTML = "L"+" "+"="+" "+"1/2"+" "+"&times"+" "+"a"+" "+"&times"+" "+"t";
+    document.getElementById("counting-area").innerHTML = "L"+" "+"="+" "+"1/2"+" "+"&times"+" "+alas+" "+"&times"+" "+ tinggi;
+    document.getElementById("area").innerHTML = "L"+" "+"="+" "+hasilluas; 
 }
 
 function KelilingSegitiga() {
@@ -15,5 +17,7 @@ function KelilingSegitiga() {
 
     let hasilkeliling = parseInt(sisi1) + parseInt(sisi2) + parseInt(sisi3)
 
-    document.write('Hasilnya adalah ' + hasilkeliling)
+    document.getElementById("formula-circum").innerHTML = "K"+" "+"="+" "+"a"+" "+"+"+" "+"b"+" "+"+"+" "+"c";
+    document.getElementById("counting-cricum").innerHTML = "K"+" "+"="+" "+sisi1+" "+"+"+" "+sisi2+" "+"+"+" "+sisi3;
+    document.getElementById("circum").innerHTML = "K"+" "+"="+" "+hasilkeliling;
 }
