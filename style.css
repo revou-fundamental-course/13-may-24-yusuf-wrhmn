@@ -1,14 +1,27 @@
 /* style 'Katik' */
+.head {
+    background-color: #3498db;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
 
 .section-content {
-    background-color: rgb(35, 115, 180);
+    background-color: #3498db;
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
+    border-radius: 5px;
     text-align: center;
 }
 
-#jajar-genjang {
+.jajar-genjang {
     padding-top: 12px;
     padding-bottom: 12px;
     width: 100%;
@@ -36,7 +49,7 @@ input {
     border: 1px solid;
     border-radius: 5px;
     color: white;
-    background-color: rgb(35, 115, 180);
+    background-color: #3498db;
 }
 
 .reset {
@@ -45,4 +58,15 @@ input {
     border-radius: 5px;
     color: white;
     background-color: orange;
+}
+
+footer {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 0;
+    margin: 0;
+    font-family: 'Poppins';
 }
